@@ -192,13 +192,6 @@
         return _offset;
       }
 
-      function setParallaxPosition($doc, multiplier, $object){
-        var offset = getOffSet();
-        var from_top = $doc.scrollTop(),
-          bg_css = 'center ' +(multiplier * from_top - offset) + 'px';
-        $object.css({"background-position" : bg_css });
-      }
-
       // Parallax function
       // Adapted based on https://codepen.io/roborich/pen/wpAsm        
       var background_image_parallax = function($object, multiplier, forceSet){
