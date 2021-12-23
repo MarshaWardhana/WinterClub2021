@@ -150,7 +150,7 @@ blockquote {
   background-repeat: no-repeat;
   height: 90vh;
   min-height: 375px;
-  position: relative;
+  position: fixed;
 }
 
 @media (min-height: 600px) and (min-width: 1920px) {
